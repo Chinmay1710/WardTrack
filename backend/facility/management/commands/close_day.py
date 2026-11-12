@@ -27,3 +27,4 @@ class Command(BaseCommand):
         count = close_day_service(target_date)
         resolved_date = target_date or (timezone.localdate() - timezone.timedelta(days=1))
         self.stdout.write(self.style.SUCCESS(f"Successfully closed day {resolved_date} for {count} active patients."))
+

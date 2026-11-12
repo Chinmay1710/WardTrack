@@ -99,6 +99,9 @@ class DashboardSummaryView(views.APIView):
 
         # Check mortality alert status
         mortality_summary = check_mortality_alert()
+        if mortality_summary.get('active_alert'):
+            mortality_summary['active_alert'] = CriticalAlertSerializer(mortality_summary['active_alert']).data
+
         _, is_threshold_configured, is_head_confirmed, threshold_banner = get_fever_threshold()
 
         data = {

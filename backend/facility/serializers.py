@@ -202,3 +202,4 @@ class SystemSettingSerializer(serializers.ModelSerializer):
             'is_confirmed_by_head', 'updated_at', 'updated_by', 'updated_by_name'
         ]
         read_only_fields = ['id', 'updated_at', 'updated_by']
+

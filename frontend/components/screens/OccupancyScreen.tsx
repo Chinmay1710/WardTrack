@@ -456,3 +456,4 @@ export default function OccupancyScreen({ user, onRoomUpdated }: OccupancyScreen
     </div>
   );
 }
+

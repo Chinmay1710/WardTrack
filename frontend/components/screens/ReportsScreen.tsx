@@ -295,3 +295,4 @@ export default function ReportsScreen({ user }: ReportsScreenProps) {
     </div>
   );
 }
+

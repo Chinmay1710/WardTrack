@@ -33,3 +33,4 @@ class CanViewReports(permissions.BasePermission):
     def has_permission(self, request, view):
         # Manager and Doctor can view mortality / reports
         return bool(request.user and request.user.is_authenticated and request.user.role in [UserRole.MANAGER, UserRole.DOCTOR])
+

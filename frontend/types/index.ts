@@ -191,3 +191,4 @@ export interface DashboardSummary {
   };
   counts?: Record<string, number>;
 }
+

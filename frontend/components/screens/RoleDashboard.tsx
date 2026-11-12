@@ -380,3 +380,4 @@ export default function RoleDashboard({ summary, user, onNavigate }: RoleDashboa
     </div>
   );
 }
+

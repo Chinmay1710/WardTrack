@@ -334,3 +334,4 @@ class Command(BaseCommand):
 
         self.stdout.write(self.style.SUCCESS("Database successfully seeded!"))
         self.stdout.write(self.style.SUCCESS("Demo credentials: nurse1/pass123, doctor1/pass123, doctor_head/pass123, admin1/pass123, manager1/pass123"))
+

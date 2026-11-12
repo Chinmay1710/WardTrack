@@ -319,3 +319,4 @@ export default function PatientRegistrationScreen({ onSuccess }: PatientRegistra
     </div>
   );
 }
+

@@ -28,3 +28,4 @@ urlpatterns = [
     path('reports/export_csv/', ExportCsvReportsView.as_view(), name='export-csv'),
     path('', include(router.urls)),
 ]
+

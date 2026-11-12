@@ -10,3 +10,4 @@ def custom_exception_handler(exc, context):
             response.data = {'detail': 'You do not have permission to do this.'}
 
     return response
+
